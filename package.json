@@ -1,0 +1,15 @@
+{
+  "name": "p1asm0-t35t",
+  "private": true,
+  "workspaces": [
+    "bug/*",
+    "rfc/*",
+    "init/*",
+    "exp/*"
+  ],
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "1.2.2",
+    "prettier": "2.7.1"
+  },
+  "packageManager": "pnpm@7.9.0"
+}

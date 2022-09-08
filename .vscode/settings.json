@@ -1,0 +1,26 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.turbo": true,
+    "**/.next": true,
+    "**/*.log": true
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.activeBackground": "#008686" // Change this color!
+  },
+  "git.detectSubmodulesLimit": 99,
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-issue-config.json": "file:///p%3A/Projects/plasmo-corp/plasmo/.github/ISSUE_TEMPLATE/config.yml"
+  }
+}

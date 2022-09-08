@@ -1,0 +1,5 @@
+packages:
+  - "bug/*"
+  - "rfc/*"
+  - "init/*"
+  - "exp/*"

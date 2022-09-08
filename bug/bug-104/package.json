@@ -1,0 +1,33 @@
+{
+  "name": "with-storage",
+  "displayName": "With storage",
+  "version": "0.0.0",
+  "description": "A basic Plasmo extension.",
+  "author": "coldsauce",
+  "scripts": {
+    "dev:chrome": "plasmo dev",
+    "dev:firefox": "plasmo dev --target=firefox-mv2",
+    "build:chrome": "plasmo build",
+    "build:firefox": "plasmo build --target=firefox-mv2"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^0.9.1",
+    "plasmo": "^0.53.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "*",
+    "@types/chrome": "0.0.196",
+    "@types/node": "18.7.16",
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "prettier": "2.7.1",
+    "typescript": "4.8.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
