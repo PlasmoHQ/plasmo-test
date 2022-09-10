@@ -1,7 +1,7 @@
 import { useStorage } from "@plasmohq/storage"
 
 function IndexOptions() {
-  const [openCount] = useStorage<number>({key:"open-count",area: 'local'}) 
+  const [openCount] = useStorage<number>({ key: "open-count", area: "local" })
   const [checked] = useStorage<boolean>("checked")
   const [serialNumber] = useStorage<string>("serial-number")
 

@@ -1,8 +1,9 @@
 import { useStorage } from "@plasmohq/storage"
 
 function IndexPopup() {
-  const [openCount,setOpenCount] = useStorage<number>({key:"open-count",area: 'local'}, (storedCount) =>
-    typeof storedCount === "undefined" ? 0 : storedCount + 1
+  const [openCount, setOpenCount] = useStorage<number>(
+    { key: "open-count", area: "local" },
+    (storedCount) => (typeof storedCount === "undefined" ? 0 : storedCount + 1)
   )
 
   const [checked, setChecked] = useStorage("checked", true)
@@ -12,7 +13,7 @@ function IndexPopup() {
   )
 
   const doubleCount = () => {
-    setOpenCount(openCount*2)
+    setOpenCount(openCount * 2)
   }
 
   return (
@@ -34,7 +35,11 @@ function IndexPopup() {
       />
       {serialNumber}
 
-      <button style={{padding: "20px", background: "orange",color: "white"}} onClick={doubleCount}>Double the count value</button>
+      <button
+        style={{ padding: "20px", background: "orange", color: "white" }}
+        onClick={doubleCount}>
+        Double the count value
+      </button>
     </div>
   )
 }
