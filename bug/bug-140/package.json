@@ -21,7 +21,7 @@
     "@plasmohq/prettier-plugin-sort-imports": "1.2.2",
     "@types/chrome": "0.0.196",
     "@types/node": "18.7.16",
-    "@types/react": "18.0.18",
+    "@types/react": "18.0.19",
     "@types/react-dom": "18.0.6",
     "plasmo": "0.53.0",
     "prettier": "2.7.1",
