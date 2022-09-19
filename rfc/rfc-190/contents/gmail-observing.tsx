@@ -8,6 +8,8 @@ export const config: PlasmoContentScript = {
   matches: ["https://mail.google.com/*"]
 }
 
+export const getShadowHostId = () => "rfc-190-example-id"
+
 export const getInlineAnchor: PlasmoGetInlineAnchor = () =>
   document.querySelector("h2 > div.aYF > span")
 

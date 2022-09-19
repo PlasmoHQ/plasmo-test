@@ -1,0 +1,9 @@
+[submodule "exp/with-svelte"]
+	path = exp/with-svelte
+	url = https://github.com/PlasmoHQ/with-svelte.git
+[submodule "exp/with-vue"]
+	path = exp/with-vue
+	url = https://github.com/PlasmoHQ/with-vue.git
+[submodule "exp/with-wasm-zig"]
+	path = exp/with-wasm-zig
+	url = https://github.com/PlasmoHQ/with-wasm-zig.git

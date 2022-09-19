@@ -11,16 +11,16 @@
     "build:firefox": "plasmo build --target=firefox-mv2"
   },
   "dependencies": {
-    "@plasmohq/storage": "^0.9.1",
-    "plasmo": "^0.53.0",
+    "@plasmohq/storage": "^0.11.0",
+    "plasmo": "^0.54.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@plasmohq/prettier-plugin-sort-imports": "*",
-    "@types/chrome": "0.0.196",
-    "@types/node": "18.7.16",
-    "@types/react": "18.0.19",
+    "@types/chrome": "0.0.197",
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "prettier": "2.7.1",
     "typescript": "4.8.3"

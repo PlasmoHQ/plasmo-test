@@ -1,18 +1,12 @@
 {
-  "name": "after-init",
-  "displayName": "After init",
+  "name": "with-content-scripts-ui",
+  "displayName": "With content scripts ui",
   "version": "0.0.0",
   "description": "A basic Plasmo extension.",
-  "author": "",
-  "packageManager": "pnpm@6.32.8",
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
-  },
+  "author": "lgvic",
   "scripts": {
     "dev": "plasmo dev",
-    "build": "plasmo build",
-    "test": "plasmo test"
+    "build": "plasmo build"
   },
   "dependencies": {
     "plasmo": "0.54.3",
@@ -31,6 +25,15 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
-    ]
+    ],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "~rulesets/test.json"
+        }
+      ]
+    }
   }
 }
