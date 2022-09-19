@@ -11,8 +11,8 @@
     "build:firefox": "plasmo build --target=firefox-mv2"
   },
   "dependencies": {
-    "@plasmohq/storage": "^0.11.0",
-    "plasmo": "^0.54.3",
+    "@plasmohq/storage": "^0.11.1",
+    "plasmo": "^0.54.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
