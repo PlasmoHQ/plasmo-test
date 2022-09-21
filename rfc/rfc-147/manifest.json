@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Sample Manifest for RFC-147",
+  "version": "10.0.0",
+  "description": "Pretty cool existing MV2 manifest for testing out rfc-147",
+  "default_locale": "en",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://plasmo.com/sdk.js; object-src 'self'",
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "match_about_blank": false,
+      "all_frames": false,
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*",
+    "checkout/*",
+    "page-scripts/*",
+    "proxies/*"
+  ],
+  "permissions": [
+    "cookies",
+    "storage",
+    "unlimitedStorage",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "128": "icons/logo-128.png"
+  },
+  "browser_action": {
+    "default_title": "Sample Manifest",
+    "default_icon": {
+      "16": "icons/default-16.png",
+      "19": "icons/default-19.png",
+      "32": "icons/default-32.png",
+      "38": "icons/default-38.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

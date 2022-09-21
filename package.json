@@ -5,6 +5,7 @@
     "bug/*",
     "rfc/*",
     "init/*",
+    "misc/*",
     "exp/*"
   ],
   "devDependencies": {

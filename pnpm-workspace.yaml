@@ -2,4 +2,5 @@ packages:
   - "bug/*"
   - "rfc/*"
   - "init/*"
+  - "misc/*"
   - "exp/*"
