@@ -206,6 +206,31 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.3
 
+  rfc/rfc-182:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 1.2.2
+      '@types/chrome': 0.0.196
+      '@types/node': 18.7.15
+      '@types/react': 18.0.18
+      '@types/react-dom': 18.0.6
+      plasmo: 0.54.6
+      prettier: 2.7.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.2
+    dependencies:
+      plasmo: 0.54.6_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 1.2.2_prettier@2.7.1
+      '@types/chrome': 0.0.196
+      '@types/node': 18.7.15
+      '@types/react': 18.0.18
+      '@types/react-dom': 18.0.6
+      prettier: 2.7.1
+      typescript: 4.8.2
+
   rfc/rfc-190:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.1
@@ -1707,6 +1732,10 @@ packages:
 
   /@plasmohq/init/0.2.1:
     resolution: {integrity: sha512-nEIHLEylaNKo9XVHiRmXt8moOsbZUJeEC5TGgmC1nKg3D2PkmYCOd/7ST6DTS8Hm8jAQ2qF7WHkR5VilZK8GjA==}
+
+  /@plasmohq/init/0.3.0:
+    resolution: {integrity: sha512-Thj3LqENdMlPo1AJcTAyaK8+8Yu3KwypCBeRpvkBtwGAv47dV79m9Z23eUrKZGanegN/5LeYh86rn2/EluyoPg==}
+    dev: false
 
   /@plasmohq/parcel-bundler/0.2.1:
     resolution: {integrity: sha512-C14rbXYEI3Tp8eFRPYqUTMClpcpnaAu0XgDJDHbASIpzft6nKBSexUkCzTc5FrkLXPP0PlosinxR3S8r2CQ5Yw==}
@@ -3990,6 +4019,95 @@ packages:
       - velocityjs
       - walrus
       - whiskers
+
+  /plasmo/0.54.6_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-JFzP8maJ+z3raR03KcFxMdWtMzMzS8pXzAaYNpQ2tV+rB5VtIO4oTJYhm0amZXqNtLXYPkCNucVGTrxAqHmoqA==}
+    hasBin: true
+    dependencies:
+      '@expo/spawn-async': 1.7.0
+      '@parcel/core': 2.7.0
+      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
+      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
+      '@parcel/watcher': 2.0.5
+      '@plasmohq/init': 0.3.0
+      '@plasmohq/parcel-config': 0.9.1_biqbaboplfbrettd7655fr4n2y
+      archiver: 5.3.1
+      buffer: 6.0.3
+      chalk: 5.0.1
+      change-case: 4.1.2
+      dotenv: 16.0.2
+      dotenv-expand: 9.0.0
+      events: 3.3.0
+      fflate: 0.7.3
+      get-port: 6.1.2
+      got: 12.4.1
+      inquirer: 9.1.1
+      is-path-inside: 4.0.0
+      mnemonic-id: 3.2.7
+      node-object-hash: 2.3.10
+      package-json: 8.1.0
+      process: 0.11.10
+      semver: 7.3.7
+      sharp: 0.31.0
+      tempy: 3.0.0
+      tiny-glob: 0.2.9
+      typescript: 4.8.3
+    transitivePeerDependencies:
+      - arc-templates
+      - atpl
+      - babel-core
+      - bracket-template
+      - coffeescript
+      - cssnano
+      - dot
+      - eco
+      - ect
+      - ejs
+      - haml-coffee
+      - hamlet
+      - hamljs
+      - handlebars
+      - hogan.js
+      - htmling
+      - jazz
+      - jqtpl
+      - just
+      - liquid
+      - liquor
+      - lodash
+      - marko
+      - mote
+      - mustache
+      - nunjucks
+      - plates
+      - postcss
+      - pug
+      - purgecss
+      - qejs
+      - ractive
+      - razor-tmpl
+      - react
+      - react-dom
+      - relateurl
+      - slm
+      - squirrelly
+      - srcset
+      - supports-color
+      - teacup
+      - templayed
+      - terser
+      - then-pug
+      - tinyliquid
+      - toffee
+      - twig
+      - twing
+      - uncss
+      - underscore
+      - vash
+      - velocityjs
+      - walrus
+      - whiskers
+    dev: false
 
   /plasmo/0.55.0-alpha.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-i7gjwz9tc/ivNPHY5YxQoPW/K+8piJKSgVwape8DJLyIT3Fpz03EvkpTitzafJXWZsQXApPk2GSGbqAJGDOcSQ==}
