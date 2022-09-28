@@ -9,7 +9,7 @@
     "exp/*"
   ],
   "devDependencies": {
-    "@plasmohq/prettier-plugin-sort-imports": "3.5.1",
+    "@plasmohq/prettier-plugin-sort-imports": "3.5.2",
     "prettier": "2.7.1"
   },
   "packageManager": "pnpm@7.11.0"
