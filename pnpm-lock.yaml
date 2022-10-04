@@ -10,7 +10,7 @@ importers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
       prettier: 2.7.1
 
-  bug/bug-104:
+  bug/bug-104-firefox-with-storage:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': '*'
       '@plasmohq/storage': ^0.12.1
@@ -25,7 +25,7 @@ importers:
       typescript: 4.8.4
     dependencies:
       '@plasmohq/storage': 0.12.1_react@18.2.0
-      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.55.2_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -37,7 +37,7 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.4
 
-  bug/bug-140:
+  bug/bug-140-invalid-mv3-wars:
     specifiers:
       '@fontsource/poppins': 4.5.9
       '@plasmohq/prettier-plugin-sort-imports': 3.5.2
@@ -64,7 +64,7 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.4
 
-  bug/bug-145:
+  bug/bug-145-invalid-react-version:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.2
       '@types/chrome': 0.0.197
@@ -206,7 +206,82 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.4
 
-  misc/with-plasmo-src-path:
+  rfc/rfc-182-tabs:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      plasmo: 0.55.0
+      prettier: 2.7.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.4
+    dependencies:
+      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      prettier: 2.7.1
+      typescript: 4.8.4
+
+  rfc/rfc-190-inline-csui:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      plasmo: 0.55.0
+      prettier: 2.7.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.4
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
+      prettier: 2.7.1
+      typescript: 4.8.4
+
+  rfc/rfc-227-init-entry:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      plasmo: 0.55.0
+      prettier: 2.7.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.4
+    dependencies:
+      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
+      '@types/chrome': 0.0.197
+      '@types/node': 18.7.23
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      prettier: 2.7.1
+      typescript: 4.8.4
+
+  rfc/rfc-239-plasmo-src-path:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.2
       '@types/chrome': 0.0.197
@@ -219,88 +294,13 @@ importers:
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
+      plasmo: 0.55.2_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
       '@types/chrome': 0.0.197
       '@types/node': 18.8.1
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      plasmo: 0.55.2_biqbaboplfbrettd7655fr4n2y
-      prettier: 2.7.1
-      typescript: 4.8.4
-
-  rfc/rfc-182:
-    specifiers:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      plasmo: 0.55.0
-      prettier: 2.7.1
-      react: 18.2.0
-      react-dom: 18.2.0
-      typescript: 4.8.4
-    dependencies:
-      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    devDependencies:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      prettier: 2.7.1
-      typescript: 4.8.4
-
-  rfc/rfc-190:
-    specifiers:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      plasmo: 0.55.0
-      prettier: 2.7.1
-      react: 18.2.0
-      react-dom: 18.2.0
-      typescript: 4.8.4
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    devDependencies:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
-      prettier: 2.7.1
-      typescript: 4.8.4
-
-  rfc/rfc-227:
-    specifiers:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
-      plasmo: 0.55.0
-      prettier: 2.7.1
-      react: 18.2.0
-      react-dom: 18.2.0
-      typescript: 4.8.4
-    dependencies:
-      plasmo: 0.55.0_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    devDependencies:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.7.23
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -2000,7 +2000,7 @@ packages:
       - velocityjs
       - walrus
       - whiskers
-    dev: true
+    dev: false
 
   /@plasmohq/parcel-namer-manifest/0.2.1:
     resolution: {integrity: sha512-LEBlkqyb2GaZD7QUjoa1aIedwYsMXvR8P/EKRRhA8tuUts6chsacXc6UE0OLMlcGX53lDqNk7lhQG82iy++Owg==}
@@ -2030,7 +2030,7 @@ packages:
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
       '@parcel/utils': 2.7.0
       nullthrows: 1.1.1
-    dev: true
+    dev: false
 
   /@plasmohq/parcel-resolver/0.3.2:
     resolution: {integrity: sha512-SPmVcdGlfc+xkSt8A8M5VwITmaLvLQ7ZWSP4+pauivrEWWmIxpHVpRuk2yJCJZCLmSU2YrTYn8l5FdlzX9BpYQ==}
@@ -2049,7 +2049,7 @@ packages:
       '@parcel/hash': 2.7.0
       '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
       got: 12.5.1
-    dev: true
+    dev: false
 
   /@plasmohq/parcel-runtime/0.5.1:
     resolution: {integrity: sha512-XxA0QMI5VCyatmFWEJLwiUsqjqUxXVzN1/kwaNLPtVY3vZ//MiB51JzwtPgbRJPYb21lmejBCrGcRndlFwdB/w==}
@@ -2104,7 +2104,7 @@ packages:
       content-security-policy-parser: 0.4.1
       json-schema-to-ts: 2.5.5
       nullthrows: 1.1.1
-    dev: true
+    dev: false
 
   /@plasmohq/parcel-transformer-svelte3/0.2.2:
     resolution: {integrity: sha512-lv8AOP1BV36tihINV8IM9lI77+FHmW88CP4VZSViJOnwfE52IPhZH4MgyV6Up8Du0FEpY+i7NiHfj16CxeOv/w==}
@@ -3054,7 +3054,7 @@ packages:
   /dotenv/16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
-    dev: true
+    dev: false
 
   /dotenv/7.0.0:
     resolution: {integrity: sha512-M3NhsLbV1i6HuGzBUH8vXrtxOk+tWmzWKDMbAVSUp3Zsjm7ywFeuwrUXhmhQyRK1q5B5GGy7hcXPbj3bnfZg2g==}
@@ -3134,7 +3134,7 @@ packages:
 
   /fflate/0.7.4:
     resolution: {integrity: sha512-5u2V/CDW15QM1XbbgS+0DfPxVB+jUKhWEKuuFuHncbk3tEEqzmoXL+2KyOFuKGqOnmdIy0/davWF1CkuwtibCw==}
-    dev: true
+    dev: false
 
   /figures/5.0.0:
     resolution: {integrity: sha512-ej8ksPF4x6e5wvK9yevct0UCXh8TTFlWGVLlgjZuoBH1HwjIfKE/IdL5mq89sFA7zELi1VhKpmtDnrs7zWyeyg==}
@@ -4249,7 +4249,7 @@ packages:
       - velocityjs
       - walrus
       - whiskers
-    dev: true
+    dev: false
 
   /postcss-value-parser/4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -4543,7 +4543,7 @@ packages:
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
-    dev: true
+    dev: false
 
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
