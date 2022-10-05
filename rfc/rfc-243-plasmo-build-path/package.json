@@ -1,0 +1,31 @@
+{
+  "name": "rfc-243-plasmo-build-path",
+  "displayName": "Rfc 243 plasmo build path",
+  "version": "0.0.0",
+  "description": "__MSG_extensionDescription__",
+  "author": "lgvic",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build"
+  },
+  "dependencies": {
+    "plasmo": "0.55.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.197",
+    "@types/node": "18.8.1",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4",
+    "@plasmohq/prettier-plugin-sort-imports": "3.5.2"
+  },
+  "manifest": {
+    "name": "__MSG_extensionName__",
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
