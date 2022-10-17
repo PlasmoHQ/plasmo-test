@@ -15,10 +15,10 @@ export const getInlineAnchor: PlasmoGetInlineAnchor = () =>
 
 // Optional custom mounting, can omit:
 export const mountShadowHost: PlasmoMountShadowHost = ({
-  inlineAnchor,
+  anchor,
   shadowHost // <- need to monitor the shadow host instead actually!
 }) => {
-  inlineAnchor.insertAdjacentElement("beforebegin", shadowHost)
+  anchor.element.insertAdjacentElement("beforebegin", shadowHost)
 }
 
 const EmailComposeInline = () => {

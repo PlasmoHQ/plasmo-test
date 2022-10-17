@@ -10,7 +10,7 @@ export const getInlineAnchor: PlasmoGetInlineAnchor = () =>
   )
 
 const PlasmoInline = () => {
-  return <button>Custom button</button>
+  return <button>Custom bar button</button>
 }
 
 export default PlasmoInline
