@@ -14,24 +14,24 @@ importers:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': '*'
       '@plasmohq/storage': ^0.12.2
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: ^0.56.0
+      plasmo: ^0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
       '@plasmohq/storage': 0.12.2_react@18.2.0
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -41,11 +41,11 @@ importers:
     specifiers:
       '@fontsource/poppins': 4.5.10
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
@@ -56,22 +56,22 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       prettier: 2.7.1
       typescript: 4.8.4
 
   bug/bug-145-invalid-react-version:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -81,22 +81,22 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       prettier: 2.7.1
       typescript: 4.8.4
 
   bug/bug-244-alias-local-imports:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
@@ -106,34 +106,34 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       prettier: 2.7.1
       typescript: 4.8.4
 
   exp/with-dnr:
     specifiers:
-      '@trivago/prettier-plugin-sort-imports': 3.3.0
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@trivago/prettier-plugin-sort-imports': 3.3.1
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@trivago/prettier-plugin-sort-imports': 3.3.0_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@trivago/prettier-plugin-sort-imports': 3.3.1_prettier@2.7.1
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -142,40 +142,40 @@ importers:
   exp/with-svelte:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
-      plasmo: 0.56.0
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
+      plasmo: 0.57.1
       prettier: 2.7.1
-      svelte: 3.51.0
+      svelte: 3.52.0
       svelte-preprocess: 4.10.7
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0
-      svelte: 3.51.0
-      svelte-preprocess: 4.10.7_c36sqhgzdfaw4kmxogryyrffx4
+      plasmo: 0.57.1
+      svelte: 3.52.0
+      svelte-preprocess: 4.10.7_besnmoibwkhwtentvwuriss7pa
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       prettier: 2.7.1
       typescript: 4.8.4
 
   exp/with-vue:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
-      plasmo: 0.56.0
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
+      plasmo: 0.57.1
       prettier: 2.7.1
       typescript: 4.8.4
-      vue: 3.2.40
+      vue: 3.2.41
     dependencies:
-      plasmo: 0.56.0
-      vue: 3.2.40
+      plasmo: 0.57.1
+      vue: 3.2.41
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       prettier: 2.7.1
       typescript: 4.8.4
 
@@ -183,24 +183,24 @@ importers:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
       '@plasmohq/rps': 1.5.3
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
       '@plasmohq/rps': 1.5.3
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -208,24 +208,24 @@ importers:
 
   init/after-init:
     specifiers:
-      '@trivago/prettier-plugin-sort-imports': 3.3.0
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@trivago/prettier-plugin-sort-imports': 3.3.1
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@trivago/prettier-plugin-sort-imports': 3.3.0_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@trivago/prettier-plugin-sort-imports': 3.3.1_prettier@2.7.1
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -234,23 +234,23 @@ importers:
   rfc/rfc-182-tabs:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -259,23 +259,23 @@ importers:
   rfc/rfc-190-inline-csui:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -284,23 +284,23 @@ importers:
   rfc/rfc-227-init-entry:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -309,23 +309,23 @@ importers:
   rfc/rfc-239-plasmo-src-path:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -334,23 +334,23 @@ importers:
   rfc/rfc-243-plasmo-build-path:
     specifiers:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.56.0
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.56.0_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -358,24 +358,24 @@ importers:
 
   rfc/rfc-263-sandbox-pages:
     specifiers:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.3
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
-      plasmo: 0.57.0-alpha.1
+      plasmo: 0.57.1
       prettier: 2.7.1
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.8.4
     dependencies:
-      plasmo: 0.57.0-alpha.1_biqbaboplfbrettd7655fr4n2y
+      plasmo: 0.57.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@plasmohq/prettier-plugin-sort-imports': 3.5.2_prettier@2.7.1
-      '@types/chrome': 0.0.197
-      '@types/node': 18.8.3
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
+      '@types/chrome': 0.0.198
+      '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       prettier: 2.7.1
@@ -388,7 +388,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
-      '@jridgewell/trace-mapping': 0.3.16
+      '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
   /@babel/code-frame/7.18.6:
@@ -408,37 +408,14 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
+      '@babel/generator': 7.17.7
       '@babel/helper-compilation-targets': 7.19.3_@babel+core@7.17.8
       '@babel/helper-module-transforms': 7.19.0
-      '@babel/helpers': 7.19.0
-      '@babel/parser': 7.19.4
-      '@babel/template': 7.18.10
-      '@babel/traverse': 7.19.4
-      '@babel/types': 7.19.4
-      convert-source-map: 1.8.0
-      debug: 4.3.4
-      gensync: 1.0.0-beta.2
-      json5: 2.2.1
-      semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/core/7.19.1:
-    resolution: {integrity: sha512-1H8VgqXme4UXCRv7/Wa1bq7RVymKOzC7znjyFM8KiEzwFqcKUKYNoQef4GhdklgNvoBXyW4gYhuBNCM5o1zImw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@ampproject/remapping': 2.2.0
-      '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
-      '@babel/helper-compilation-targets': 7.19.3_@babel+core@7.19.1
-      '@babel/helper-module-transforms': 7.19.0
       '@babel/helpers': 7.19.4
-      '@babel/parser': 7.19.4
+      '@babel/parser': 7.18.9
       '@babel/template': 7.18.10
-      '@babel/traverse': 7.19.4
-      '@babel/types': 7.19.4
+      '@babel/traverse': 7.17.3
+      '@babel/types': 7.17.0
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -454,14 +431,14 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
+      '@babel/generator': 7.19.3
       '@babel/helper-compilation-targets': 7.19.3_@babel+core@7.19.3
       '@babel/helper-module-transforms': 7.19.0
       '@babel/helpers': 7.19.4
-      '@babel/parser': 7.19.4
+      '@babel/parser': 7.19.3
       '@babel/template': 7.18.10
-      '@babel/traverse': 7.19.4
-      '@babel/types': 7.19.4
+      '@babel/traverse': 7.19.3
+      '@babel/types': 7.19.3
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -475,25 +452,16 @@ packages:
     resolution: {integrity: sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.19.4
+      '@babel/types': 7.17.0
       jsesc: 2.5.2
       source-map: 0.5.7
-    dev: true
-
-  /@babel/generator/7.19.0:
-    resolution: {integrity: sha512-S1ahxf1gZ2dpoiFgA+ohK9DIpz50bJ0CWs7Zlzb54Z4sG8qmdIrGrVqmy1sAtTVRb+9CU6U8VqT9L0Zj7hxHVg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.19.4
-      '@jridgewell/gen-mapping': 0.3.2
-      jsesc: 2.5.2
     dev: true
 
   /@babel/generator/7.19.3:
     resolution: {integrity: sha512-fqVZnmp1ncvZU757UzDheKZpfPgatqY59XtW2/j/18H7u76akb8xqvjw82f+i2UKd/ksYsSick/BCLQUUtJ/qQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.19.4
+      '@babel/types': 7.19.3
       '@jridgewell/gen-mapping': 0.3.2
       jsesc: 2.5.2
     dev: true
@@ -515,19 +483,6 @@ packages:
     dependencies:
       '@babel/compat-data': 7.19.4
       '@babel/core': 7.17.8
-      '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.4
-      semver: 6.3.0
-    dev: true
-
-  /@babel/helper-compilation-targets/7.19.3_@babel+core@7.19.1:
-    resolution: {integrity: sha512-65ESqLGyGmLvgR0mst5AdW1FkNlj9rQsCKduzEoEPhBCDFGXvz2jW6bXFG6i0/MrV2s7hhXjjb2yAzcPuQlLwg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.19.4
-      '@babel/core': 7.19.1
       '@babel/helper-validator-option': 7.18.6
       browserslist: 4.21.4
       semver: 6.3.0
@@ -583,8 +538,8 @@ packages:
       '@babel/helper-split-export-declaration': 7.18.6
       '@babel/helper-validator-identifier': 7.19.1
       '@babel/template': 7.18.10
-      '@babel/traverse': 7.19.4
-      '@babel/types': 7.19.4
+      '@babel/traverse': 7.19.3
+      '@babel/types': 7.19.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -616,17 +571,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/helpers/7.19.0:
-    resolution: {integrity: sha512-DRBCKGwIEdqY3+rPJgG/dKfQy9+08rHIAJx8q2p+HSWP87s2HCrQmaAMMyMll2kIXKCW0cO1RdQskx15Xakftg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/template': 7.18.10
-      '@babel/traverse': 7.19.4
-      '@babel/types': 7.19.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@babel/helpers/7.19.4:
     resolution: {integrity: sha512-G+z3aOx2nfDHwX/kyVii5fJq+bgscg89/dJNWpYeKeBv3v9xX8EIabmx1k6u9LS04H7nROFVRVK+e3k0VHp+sw==}
     engines: {node: '>=6.9.0'}
@@ -646,20 +590,12 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  /@babel/parser/7.17.8:
-    resolution: {integrity: sha512-BoHhDJrJXqcg+ZL16Xv39H9n+AqJ4pcDrQBGZN+wHxIysrLZ3/ECwCBUch/1zUNhnsXULcONU3Ei5Hmkfk6kiQ==}
+  /@babel/parser/7.18.9:
+    resolution: {integrity: sha512-9uJveS9eY9DJ0t64YbIBZICtJy8a5QrDEVdiLCG97fVLpDTpGX7t8mMSb6OWw6Lrnjqj4O8zwjELX3dhoMgiBg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.19.4
-    dev: true
-
-  /@babel/parser/7.19.1:
-    resolution: {integrity: sha512-h7RCSorm1DdTVGJf3P2Mhj3kdnkmF/EiysUkzS2TdgAYqyjFdMQJbVuXOBej2SBJaXan/lIVtT6KkGbyyq753A==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.19.4
+      '@babel/types': 7.17.0
     dev: true
 
   /@babel/parser/7.19.3:
@@ -667,7 +603,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.19.4
+      '@babel/types': 7.19.3
     dev: true
 
   /@babel/parser/7.19.4:
@@ -682,7 +618,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/parser': 7.19.4
+      '@babel/parser': 7.19.3
       '@babel/types': 7.19.4
     dev: true
 
@@ -691,31 +627,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
+      '@babel/generator': 7.17.7
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.19.4
-      '@babel/types': 7.19.4
-      debug: 4.3.4
-      globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/traverse/7.19.1:
-    resolution: {integrity: sha512-0j/ZfZMxKukDaag2PtOPDbwuELqIar6lLskVPPJDjXMXjfLb1Obo/1yjxIGqqAJrmfaTIY3z2wFLAQ7qSkLsuA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
-      '@babel/helper-environment-visitor': 7.18.9
-      '@babel/helper-function-name': 7.19.0
-      '@babel/helper-hoist-variables': 7.18.6
-      '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.19.4
-      '@babel/types': 7.19.4
+      '@babel/parser': 7.18.9
+      '@babel/types': 7.17.0
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -727,13 +645,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.19.5
+      '@babel/generator': 7.19.3
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.19.4
-      '@babel/types': 7.19.4
+      '@babel/parser': 7.19.3
+      '@babel/types': 7.19.3
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -762,15 +680,6 @@ packages:
     resolution: {integrity: sha512-TmKSNO4D5rzhL5bjWFcVHHLETzfQ/AmbKpKPOSjlP0WoHZ6L911fgoOKY4Alp/emzG4cHJdyN49zpgkbXFEHHw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
-    dev: true
-
-  /@babel/types/7.19.0:
-    resolution: {integrity: sha512-YuGopBq3ke25BVSiS6fgF49Ul9gH1x70Bcr6bqRLjWCkcX8Hre1/5+z+IiWOIerRMSSEfGZVB9z9kyq7wVs9YA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
     dev: true
@@ -816,7 +725,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.14
-      '@jridgewell/trace-mapping': 0.3.16
+      '@jridgewell/trace-mapping': 0.3.17
 
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
@@ -830,13 +739,13 @@ packages:
     resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.2
-      '@jridgewell/trace-mapping': 0.3.16
+      '@jridgewell/trace-mapping': 0.3.17
 
   /@jridgewell/sourcemap-codec/1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
 
-  /@jridgewell/trace-mapping/0.3.16:
-    resolution: {integrity: sha512-LCQ+NeThyJ4k1W2d+vIKdxuSt9R3pQSZ4P92m7EakaYuXcVWbHuT5bjNcqLd4Rdgi6xYWYDvBJZJLZSLanjDcA==}
+  /@jridgewell/trace-mapping/0.3.17:
+    resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
@@ -1448,7 +1357,7 @@ packages:
       browserslist: 4.21.4
       detect-libc: 1.0.3
       nullthrows: 1.1.1
-      regenerator-runtime: 0.13.9
+      regenerator-runtime: 0.13.10
       semver: 5.7.1
 
   /@parcel/transformer-json/2.7.0_@parcel+core@2.7.0:
@@ -1907,8 +1816,8 @@ packages:
       '@parcel/utils': 2.7.0
       nullthrows: 1.1.1
 
-  /@plasmohq/parcel-config/0.16.4:
-    resolution: {integrity: sha512-ZGOr4oy6lbwO2nlr23uA93RPGHQBv7qOY+0wTwdksZmyDBUaQ1O/tIeb/Yw2u2Xd3tSjKlmtRYThlSDxLRu09w==}
+  /@plasmohq/parcel-config/0.19.1:
+    resolution: {integrity: sha512-8rFX48A8j3LX+3v3tPLQFQrtkzIF67/Gxxv/AmL3PAdEkh3nHiGbMLmzHZ6Aq4un1oFbKeJ9PeRGBKuhT1PrCw==}
     dependencies:
       '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
       '@parcel/core': 2.7.0
@@ -1926,12 +1835,12 @@ packages:
       '@parcel/transformer-worklet': 2.7.0_@parcel+core@2.7.0
       '@plasmohq/parcel-bundler': 0.2.5
       '@plasmohq/parcel-namer-manifest': 0.2.4
-      '@plasmohq/parcel-packager': 0.3.4
-      '@plasmohq/parcel-resolver': 0.5.4
-      '@plasmohq/parcel-runtime': 0.9.2
+      '@plasmohq/parcel-packager': 0.4.0
+      '@plasmohq/parcel-resolver': 0.6.1
+      '@plasmohq/parcel-runtime': 0.9.3
       '@plasmohq/parcel-transformer-inject-env': 0.1.4
       '@plasmohq/parcel-transformer-inline-css': 0.1.6
-      '@plasmohq/parcel-transformer-manifest': 0.9.1
+      '@plasmohq/parcel-transformer-manifest': 0.11.1
       '@plasmohq/parcel-transformer-svelte3': 0.2.4
       '@plasmohq/parcel-transformer-vue3': 0.2.7
     transitivePeerDependencies:
@@ -1991,91 +1900,8 @@ packages:
       - whiskers
     dev: false
 
-  /@plasmohq/parcel-config/0.16.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-ZGOr4oy6lbwO2nlr23uA93RPGHQBv7qOY+0wTwdksZmyDBUaQ1O/tIeb/Yw2u2Xd3tSjKlmtRYThlSDxLRu09w==}
-    dependencies:
-      '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
-      '@parcel/core': 2.7.0
-      '@parcel/optimizer-data-url': 2.7.0_@parcel+core@2.7.0
-      '@parcel/runtime-js': 2.7.0_@parcel+core@2.7.0
-      '@parcel/runtime-service-worker': 2.7.0_@parcel+core@2.7.0
-      '@parcel/source-map': 2.1.1
-      '@parcel/transformer-css': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-graphql': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-inline-string': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-less': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-postcss': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-raw': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-sass': 2.7.0_@parcel+core@2.7.0
-      '@parcel/transformer-worklet': 2.7.0_@parcel+core@2.7.0
-      '@plasmohq/parcel-bundler': 0.2.5
-      '@plasmohq/parcel-namer-manifest': 0.2.4
-      '@plasmohq/parcel-packager': 0.3.4
-      '@plasmohq/parcel-resolver': 0.5.4
-      '@plasmohq/parcel-runtime': 0.9.2
-      '@plasmohq/parcel-transformer-inject-env': 0.1.4
-      '@plasmohq/parcel-transformer-inline-css': 0.1.6
-      '@plasmohq/parcel-transformer-manifest': 0.9.1
-      '@plasmohq/parcel-transformer-svelte3': 0.2.4
-      '@plasmohq/parcel-transformer-vue3': 0.2.7_biqbaboplfbrettd7655fr4n2y
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffeescript
-      - cssnano
-      - dot
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jazz
-      - jqtpl
-      - just
-      - liquid
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - postcss
-      - pug
-      - purgecss
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - relateurl
-      - slm
-      - squirrelly
-      - srcset
-      - supports-color
-      - teacup
-      - templayed
-      - terser
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - uncss
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-
-  /@plasmohq/parcel-config/0.18.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-vwJ7KlyLOxJGO1M5jXFZ1PTGstKs780h2ILQRkiLoP9Bl8iIyCt0BoXIcdMWsJoYqLmZFkdQOzWBkMN+eWBVAg==}
+  /@plasmohq/parcel-config/0.19.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-8rFX48A8j3LX+3v3tPLQFQrtkzIF67/Gxxv/AmL3PAdEkh3nHiGbMLmzHZ6Aq4un1oFbKeJ9PeRGBKuhT1PrCw==}
     dependencies:
       '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
       '@parcel/core': 2.7.0
@@ -2094,11 +1920,11 @@ packages:
       '@plasmohq/parcel-bundler': 0.2.5
       '@plasmohq/parcel-namer-manifest': 0.2.4
       '@plasmohq/parcel-packager': 0.4.0
-      '@plasmohq/parcel-resolver': 0.6.0
-      '@plasmohq/parcel-runtime': 0.9.2
+      '@plasmohq/parcel-resolver': 0.6.1
+      '@plasmohq/parcel-runtime': 0.9.3
       '@plasmohq/parcel-transformer-inject-env': 0.1.4
       '@plasmohq/parcel-transformer-inline-css': 0.1.6
-      '@plasmohq/parcel-transformer-manifest': 0.10.0
+      '@plasmohq/parcel-transformer-manifest': 0.11.1
       '@plasmohq/parcel-transformer-svelte3': 0.2.4
       '@plasmohq/parcel-transformer-vue3': 0.2.7_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
@@ -2156,7 +1982,6 @@ packages:
       - velocityjs
       - walrus
       - whiskers
-    dev: false
 
   /@plasmohq/parcel-namer-manifest/0.2.4:
     resolution: {integrity: sha512-60uuxBjMGIZmEAtK6l9N9hVjBaJw3Jvf0Byhov9+lbIKMG0IJYZrNFWLXmj1mq4eO/mCF/jM0OOJ8fsNiiggGQ==}
@@ -2167,16 +1992,6 @@ packages:
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
       '@parcel/utils': 2.7.0
 
-  /@plasmohq/parcel-packager/0.3.4:
-    resolution: {integrity: sha512-lIH4qLit1IeMKKg4EYx/lSj0vdgVLGr5zmByVI5JoKhyGE5AxphRJpcKUZfVcLc5AYTEYBuBr8FzCeOj42Yqjg==}
-    engines: {parcel: '>= 2.7.0'}
-    dependencies:
-      '@parcel/core': 2.7.0
-      '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
-      '@parcel/types': 2.7.0_@parcel+core@2.7.0
-      '@parcel/utils': 2.7.0
-      nullthrows: 1.1.1
-
   /@plasmohq/parcel-packager/0.4.0:
     resolution: {integrity: sha512-vX3Mc9M6Bs12x7QrU6HfajoJC3Wzh6/n6v7eLVjt93aI+Df7S80DZWsGVH4XrZyXj4U3s9HAB8sSQQfWXSiwwA==}
     engines: {parcel: '>= 2.7.0'}
@@ -2186,30 +2001,19 @@ packages:
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
       '@parcel/utils': 2.7.0
       nullthrows: 1.1.1
-    dev: false
 
-  /@plasmohq/parcel-resolver/0.5.4:
-    resolution: {integrity: sha512-tybCaIePIAxafWx197pOUo8HkWeWb4rG33/ZrkAF+5g+XiXJSac3sHTCodJrC1YYFPbFM7L0geSmCqhEmv8DHA==}
-    engines: {parcel: '>= 2.7.0'}
-    dependencies:
-      '@parcel/core': 2.7.0
-      '@parcel/hash': 2.7.0
-      '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
-      got: 12.5.1
-
-  /@plasmohq/parcel-resolver/0.6.0:
-    resolution: {integrity: sha512-DVXKSkugd0t5jK8wGJUPnLNnsq75q5U+y6NjT2/3PpIr0sotZz0Omnj04I9Z01zKVMDF06ih4+mW9RejvMGpUw==}
+  /@plasmohq/parcel-resolver/0.6.1:
+    resolution: {integrity: sha512-RWkdcZpJN7G/Gnzt5aRToi2NfobRCZIzzfj9mZAwGhSh9Qbm3SigUjDJ5YAgf+CsBDZ2RthvpyGHWQjOoC2RnA==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.7.0
       '@parcel/hash': 2.7.0
       '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
-      got: 12.5.1
-    dev: false
+      got: 12.5.2
 
-  /@plasmohq/parcel-runtime/0.9.2:
-    resolution: {integrity: sha512-GZ9jw4G24Sg1K4SDvXmrTQYr4aNb8s4cdPemo3RRMEfgygY7Y5ZxUQgD5WnizHV8mGEggZ3g0GX0vwvZLs0bOw==}
+  /@plasmohq/parcel-runtime/0.9.3:
+    resolution: {integrity: sha512-VQrWZ+/iNZcRO5fDMQiw5ImgKCuS1+HsxPMu6B1Xk/jU+AB3I6IkTqE/+X7IFWbuJ5BXdNAMudnSDNAfhzcSyA==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.7.0
@@ -2233,24 +2037,8 @@ packages:
       '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
       '@parcel/utils': 2.7.0
 
-  /@plasmohq/parcel-transformer-manifest/0.10.0:
-    resolution: {integrity: sha512-8Fj6syEHQO6GjgZyIrBXJ/YXqha0xNcXgyvIQOfSmiyPzuQz2400ZOJGEiV/NorFPzjAnyZKM1rcbcC9+E0tbA==}
-    engines: {parcel: '>= 2.7.0'}
-    dependencies:
-      '@mischnic/json-sourcemap': 0.1.0
-      '@parcel/core': 2.7.0
-      '@parcel/diagnostic': 2.7.0
-      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
-      '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
-      '@parcel/types': 2.7.0_@parcel+core@2.7.0
-      '@parcel/utils': 2.7.0
-      content-security-policy-parser: 0.4.1
-      json-schema-to-ts: 2.5.5
-      nullthrows: 1.1.1
-    dev: false
-
-  /@plasmohq/parcel-transformer-manifest/0.9.1:
-    resolution: {integrity: sha512-V6zxSNm4JxiyrUn8rfD4IuDsfwE5ls/NXCD6am6D1mV/XBtAdo+oMISQMpleONMlYqKl5W9Qw+xcpa23VskZaA==}
+  /@plasmohq/parcel-transformer-manifest/0.11.1:
+    resolution: {integrity: sha512-ArQPDN2kQSLt1fPqG+q4jzuPP+hDs8iJEy8dmy6P/x0J5SWqH7+b2qVcaRp1eZB2nIYMvvQx3x95LHGElkH9/w==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@mischnic/json-sourcemap': 0.1.0
@@ -2399,24 +2187,6 @@ packages:
       - walrus
       - whiskers
 
-  /@plasmohq/prettier-plugin-sort-imports/3.5.2_prettier@2.7.1:
-    resolution: {integrity: sha512-Jvvs96KjT5Czh54Sr05cnU/ZvurKix4JOQ8d6vMl1P3zPdwucQQUFVkmUlWmqlCBXdz99bfpTtR2reoHJF9lxQ==}
-    peerDependencies:
-      prettier: 2.x
-    dependencies:
-      '@babel/core': 7.19.1
-      '@babel/generator': 7.19.0
-      '@babel/parser': 7.19.1
-      '@babel/traverse': 7.19.1
-      '@babel/types': 7.19.0
-      javascript-natural-sort: 0.7.1
-      lodash.clone: 4.5.0
-      lodash.isequal: 4.5.0
-      prettier: 2.7.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@plasmohq/prettier-plugin-sort-imports/3.5.4_prettier@2.7.1:
     resolution: {integrity: sha512-VrGA2R+hCS4hBwg5aILPXjIhs72ctikWr89ti7EWdlPs3jzo+G10177ppDeNgROLtAx8woT5Rdh+zTU58RRSwg==}
     peerDependencies:
@@ -2486,14 +2256,14 @@ packages:
     dependencies:
       defer-to-connect: 2.0.1
 
-  /@trivago/prettier-plugin-sort-imports/3.3.0_prettier@2.7.1:
-    resolution: {integrity: sha512-1y44bVZuIN0RsS3oIiGd5k8Vm3IZXYZnp4VsP2Z/S5L9WAOw43HE2clso66M2S/dDeJ+8sKPqnHsEfh39Vjs3w==}
+  /@trivago/prettier-plugin-sort-imports/3.3.1_prettier@2.7.1:
+    resolution: {integrity: sha512-ITGspeOlFnK1dwJVjqOguGW3Ja8hakxOPFudhpP0YfsDHT0yM0u4TU+62Vl83hCatnhB4+fYhlSZyiifUv4xSg==}
     peerDependencies:
       prettier: 2.x
     dependencies:
       '@babel/core': 7.17.8
       '@babel/generator': 7.17.7
-      '@babel/parser': 7.17.8
+      '@babel/parser': 7.18.9
       '@babel/traverse': 7.17.3
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
@@ -2507,8 +2277,8 @@ packages:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
 
-  /@types/chrome/0.0.197:
-    resolution: {integrity: sha512-m1NfS5bOjaypyqQfaX6CxmJodZVcvj5+Mt/K94EBHkflYjPNmXHAzbxfifdLMa0YM3PDyOxohoTS5ug/e6p5jA==}
+  /@types/chrome/0.0.198:
+    resolution: {integrity: sha512-zLn6JZXwSOOY0pw+dkIxItxvjsQThDkqaFnsnmr412Wa0MqesymfdTQ/0d30J/0wiFp3TYw0i63hzGGy0W7Paw==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.9
@@ -2534,12 +2304,8 @@ packages:
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
 
-  /@types/node/18.8.3:
-    resolution: {integrity: sha512-0os9vz6BpGwxGe9LOhgP/ncvYN5Tx1fNcd2TM3rD/aCGBkysb+ZWpXEocG24h6ZzOi13+VB8HndAQFezsSOw1w==}
-    dev: true
-
-  /@types/node/18.8.4:
-    resolution: {integrity: sha512-WdlVphvfR/GJCLEMbNA8lJ0lhFNBj4SW3O+O5/cEGw9oYrv0al9zTwuQsq+myDUXgNx2jgBynoVgZ2MMJ6pbow==}
+  /@types/node/18.11.2:
+    resolution: {integrity: sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2573,7 +2339,7 @@ packages:
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
-      '@types/node': 18.8.4
+      '@types/node': 18.11.2
     dev: false
 
   /@types/scheduler/0.16.2:
@@ -2588,11 +2354,27 @@ packages:
       estree-walker: 2.0.2
       source-map: 0.6.1
 
+  /@vue/compiler-core/3.2.41:
+    resolution: {integrity: sha512-oA4mH6SA78DT+96/nsi4p9DX97PHcNROxs51lYk7gb9Z4BPKQ3Mh+BLn6CQZBw857Iuhu28BfMSRHAlPvD4vlw==}
+    dependencies:
+      '@babel/parser': 7.19.4
+      '@vue/shared': 3.2.41
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+    dev: false
+
   /@vue/compiler-dom/3.2.40:
     resolution: {integrity: sha512-OZCNyYVC2LQJy4H7h0o28rtk+4v+HMQygRTpmibGoG9wZyomQiS5otU7qo3Wlq5UfHDw2RFwxb9BJgKjVpjrQw==}
     dependencies:
       '@vue/compiler-core': 3.2.40
       '@vue/shared': 3.2.40
+
+  /@vue/compiler-dom/3.2.41:
+    resolution: {integrity: sha512-xe5TbbIsonjENxJsYRbDJvthzqxLNk+tb3d/c47zgREDa/PCp6/Y4gC/skM4H6PIuX5DAxm7fFJdbjjUH2QTMw==}
+    dependencies:
+      '@vue/compiler-core': 3.2.41
+      '@vue/shared': 3.2.41
+    dev: false
 
   /@vue/compiler-sfc/3.2.40:
     resolution: {integrity: sha512-tzqwniIN1fu1PDHC3CpqY/dPCfN/RN1thpBC+g69kJcrl7mbGiHKNwbA6kJ3XKKy8R6JLKqcpVugqN4HkeBFFg==}
@@ -2605,14 +2387,36 @@ packages:
       '@vue/shared': 3.2.40
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.16
+      postcss: 8.4.18
       source-map: 0.6.1
+
+  /@vue/compiler-sfc/3.2.41:
+    resolution: {integrity: sha512-+1P2m5kxOeaxVmJNXnBskAn3BenbTmbxBxWOtBq3mQTCokIreuMULFantBUclP0+KnzNCMOvcnKinqQZmiOF8w==}
+    dependencies:
+      '@babel/parser': 7.19.4
+      '@vue/compiler-core': 3.2.41
+      '@vue/compiler-dom': 3.2.41
+      '@vue/compiler-ssr': 3.2.41
+      '@vue/reactivity-transform': 3.2.41
+      '@vue/shared': 3.2.41
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+      postcss: 8.4.18
+      source-map: 0.6.1
+    dev: false
 
   /@vue/compiler-ssr/3.2.40:
     resolution: {integrity: sha512-80cQcgasKjrPPuKcxwuCx7feq+wC6oFl5YaKSee9pV3DNq+6fmCVwEEC3vvkf/E2aI76rIJSOYHsWSEIxK74oQ==}
     dependencies:
       '@vue/compiler-dom': 3.2.40
       '@vue/shared': 3.2.40
+
+  /@vue/compiler-ssr/3.2.41:
+    resolution: {integrity: sha512-Y5wPiNIiaMz/sps8+DmhaKfDm1xgj6GrH99z4gq2LQenfVQcYXmHIOBcs5qPwl7jaW3SUQWjkAPKMfQemEQZwQ==}
+    dependencies:
+      '@vue/compiler-dom': 3.2.41
+      '@vue/shared': 3.2.41
+    dev: false
 
   /@vue/reactivity-transform/3.2.40:
     resolution: {integrity: sha512-HQUCVwEaacq6fGEsg2NUuGKIhUveMCjOk8jGHqLXPI2w6zFoPrlQhwWEaINTv5kkZDXKEnCijAp+4gNEHG03yw==}
@@ -2623,39 +2427,53 @@ packages:
       estree-walker: 2.0.2
       magic-string: 0.25.9
 
-  /@vue/reactivity/3.2.40:
-    resolution: {integrity: sha512-N9qgGLlZmtUBMHF9xDT4EkD9RdXde1Xbveb+niWMXuHVWQP5BzgRmE3SFyUBBcyayG4y1lhoz+lphGRRxxK4RA==}
+  /@vue/reactivity-transform/3.2.41:
+    resolution: {integrity: sha512-mK5+BNMsL4hHi+IR3Ft/ho6Za+L3FA5j8WvreJ7XzHrqkPq8jtF/SMo7tuc9gHjLDwKZX1nP1JQOKo9IEAn54A==}
     dependencies:
-      '@vue/shared': 3.2.40
+      '@babel/parser': 7.19.4
+      '@vue/compiler-core': 3.2.41
+      '@vue/shared': 3.2.41
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
     dev: false
 
-  /@vue/runtime-core/3.2.40:
-    resolution: {integrity: sha512-U1+rWf0H8xK8aBUZhnrN97yoZfHbjgw/bGUzfgKPJl69/mXDuSg8CbdBYBn6VVQdR947vWneQBFzdhasyzMUKg==}
+  /@vue/reactivity/3.2.41:
+    resolution: {integrity: sha512-9JvCnlj8uc5xRiQGZ28MKGjuCoPhhTwcoAdv3o31+cfGgonwdPNuvqAXLhlzu4zwqavFEG5tvaoINQEfxz+l6g==}
     dependencies:
-      '@vue/reactivity': 3.2.40
-      '@vue/shared': 3.2.40
+      '@vue/shared': 3.2.41
     dev: false
 
-  /@vue/runtime-dom/3.2.40:
-    resolution: {integrity: sha512-AO2HMQ+0s2+MCec8hXAhxMgWhFhOPJ/CyRXnmTJ6XIOnJFLrH5Iq3TNwvVcODGR295jy77I6dWPj+wvFoSYaww==}
+  /@vue/runtime-core/3.2.41:
+    resolution: {integrity: sha512-0LBBRwqnI0p4FgIkO9q2aJBBTKDSjzhnxrxHYengkAF6dMOjeAIZFDADAlcf2h3GDALWnblbeprYYpItiulSVQ==}
     dependencies:
-      '@vue/runtime-core': 3.2.40
-      '@vue/shared': 3.2.40
+      '@vue/reactivity': 3.2.41
+      '@vue/shared': 3.2.41
+    dev: false
+
+  /@vue/runtime-dom/3.2.41:
+    resolution: {integrity: sha512-U7zYuR1NVIP8BL6jmOqmapRAHovEFp7CSw4pR2FacqewXNGqZaRfHoNLQsqQvVQ8yuZNZtxSZy0FFyC70YXPpA==}
+    dependencies:
+      '@vue/runtime-core': 3.2.41
+      '@vue/shared': 3.2.41
       csstype: 2.6.21
     dev: false
 
-  /@vue/server-renderer/3.2.40_vue@3.2.40:
-    resolution: {integrity: sha512-gtUcpRwrXOJPJ4qyBpU3EyxQa4EkV8I4f8VrDePcGCPe4O/hd0BPS7v9OgjIQob6Ap8VDz9G+mGTKazE45/95w==}
+  /@vue/server-renderer/3.2.41_vue@3.2.41:
+    resolution: {integrity: sha512-7YHLkfJdTlsZTV0ae5sPwl9Gn/EGr2hrlbcS/8naXm2CDpnKUwC68i1wGlrYAfIgYWL7vUZwk2GkYLQH5CvFig==}
     peerDependencies:
-      vue: 3.2.40
+      vue: 3.2.41
     dependencies:
-      '@vue/compiler-ssr': 3.2.40
-      '@vue/shared': 3.2.40
-      vue: 3.2.40
+      '@vue/compiler-ssr': 3.2.41
+      '@vue/shared': 3.2.41
+      vue: 3.2.41
     dev: false
 
   /@vue/shared/3.2.40:
     resolution: {integrity: sha512-0PLQ6RUtZM0vO3teRfzGi4ltLUO5aO+kLgwh4Um3THSR03rpQWLTuRCkuO5A41ITzwdWeKdPHtSARuPkoo5pCQ==}
+
+  /@vue/shared/3.2.41:
+    resolution: {integrity: sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93eCFhPCZPHBs4QJS7YWEV7A3sxw==}
+    dev: false
 
   /abortcontroller-polyfill/1.7.5:
     resolution: {integrity: sha512-JMJ5soJWP18htbbxJjG7bG6yuI6pRhgJ0scHHTfkUjf6wjP912xZWvM+A4sJK3gqd9E8fcPbDnOefbA9Th/FIQ==}
@@ -2687,8 +2505,8 @@ packages:
     dependencies:
       color-convert: 2.0.1
 
-  /ansi-styles/6.1.1:
-    resolution: {integrity: sha512-qDOv24WjnYuL+wbwHdlsYZFy+cgPtrYw0Tn7GLORicQp9BkQLzrgI3Pm4VyR9ERZ41YTn7KlMPuL1n05WdZvmg==}
+  /ansi-styles/6.2.1:
+    resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
 
   /anymatch/3.1.2:
@@ -2750,8 +2568,8 @@ packages:
       inherits: 2.0.4
       readable-stream: 3.6.0
 
-  /bl/5.0.0:
-    resolution: {integrity: sha512-8vxFNZ0pflFfi0WXA3WQXlj6CaMEwsmh63I1CNp0q+wWv8sD0ARx1KovSQd0l2GkwrMIOyedq0EF1FxI+RCZLQ==}
+  /bl/5.1.0:
+    resolution: {integrity: sha512-tv1ZJHLfTDnXE6tMHv73YgSJaWR2AFuPwMntBe7XL/GBFHnT0CLnsHMogfk5+GzCDC5ZWarSCYaIGATZt9dNsQ==}
     dependencies:
       buffer: 6.0.3
       inherits: 2.0.4
@@ -2785,8 +2603,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001418
-      electron-to-chromium: 1.4.276
+      caniuse-lite: 1.0.30001422
+      electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
 
@@ -2834,8 +2652,8 @@ packages:
       pascal-case: 3.1.2
       tslib: 2.4.0
 
-  /caniuse-lite/1.0.30001418:
-    resolution: {integrity: sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==}
+  /caniuse-lite/1.0.30001422:
+    resolution: {integrity: sha512-hSesn02u1QacQHhaxl/kNMZwqVG35Sz/8DgvmgedxSH8z9UUpcDYSPYgsj3x5dQNRcNp6BwpSfQfVzYUTm+fog==}
 
   /capital-case/1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -2858,10 +2676,6 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-
-  /chalk/5.1.0:
-    resolution: {integrity: sha512-56zD4khRTBoIyzUYAFgDDaPhUMN/fC/rySe6aZGqbj/VWiU2eI3l6ZLOtYGFZAV5v02mwPjtpzlrOveJiz5eZQ==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   /chalk/5.1.2:
     resolution: {integrity: sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==}
@@ -2994,12 +2808,6 @@ packages:
   /content-security-policy-parser/0.4.1:
     resolution: {integrity: sha512-NNJS8XPnx3OKr/CUOSwDSJw+lWTrZMYnclLKj0Y9CYOfJNJTWLFGPg3u2hYgbXMXKVRkZR2fbyReNQ1mUff/Qg==}
     engines: {node: '>=8.0.0'}
-
-  /convert-source-map/1.8.0:
-    resolution: {integrity: sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==}
-    dependencies:
-      safe-buffer: 5.1.2
-    dev: true
 
   /convert-source-map/1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
@@ -3186,8 +2994,8 @@ packages:
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium/1.4.276:
-    resolution: {integrity: sha512-EpuHPqu8YhonqLBXHoU6hDJCD98FCe6KDoet3/gY1qsQ6usjJoHqBH2YIVs8FXaAtHwVL8Uqa/fsYao/vq9VWQ==}
+  /electron-to-chromium/1.4.284:
+    resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
 
   /emoji-regex/9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
@@ -3337,22 +3145,6 @@ packages:
 
   /globrex/0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
-
-  /got/12.5.1:
-    resolution: {integrity: sha512-sD16AK8cCyUoPtKr/NMvLTFFa+T3i3S+zoiuvhq0HP2YiqBZA9AtlBjAdsQBsLBK7slPuvmfE0OxhGi7N5dD4w==}
-    engines: {node: '>=14.16'}
-    dependencies:
-      '@sindresorhus/is': 5.3.0
-      '@szmarczak/http-timer': 5.0.1
-      cacheable-lookup: 7.0.0
-      cacheable-request: 10.2.1
-      decompress-response: 6.0.0
-      form-data-encoder: 2.1.3
-      get-stream: 6.0.1
-      http2-wrapper: 2.1.11
-      lowercase-keys: 3.0.0
-      p-cancelable: 3.0.0
-      responselike: 3.0.0
 
   /got/12.5.2:
     resolution: {integrity: sha512-guHGMSEcsA5m1oPRweXUJnug0vuvlkX9wx5hzOka+ZBrBUOJHU0Z1JcNu3QE5IPGnA5aXUsQHdWOD4eJg9/v3A==}
@@ -3864,6 +3656,10 @@ packages:
 
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
+    dev: false
+
+  /minimist/1.2.7:
+    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
 
   /mkdirp-classic/0.5.3:
     resolution: {integrity: sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==}
@@ -3936,8 +3732,8 @@ packages:
       lower-case: 2.0.2
       tslib: 2.4.0
 
-  /node-abi/3.26.0:
-    resolution: {integrity: sha512-jRVtMFTChbi2i/jqo/i2iP9634KMe+7K1v35mIdj3Mn59i5q27ZYhn+sW6npISM/PQg7HrP2kwtRBMmh5Uvzdg==}
+  /node-abi/3.28.0:
+    resolution: {integrity: sha512-fRlDb4I0eLcQeUvGq7IY3xHrSb0c9ummdvDSYWfT9+LKP+3jCKw/tKoqaM7r1BAoiAC6GtwyjaGnOz6B3OtF+A==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.3.8
@@ -4007,7 +3803,7 @@ packages:
     resolution: {integrity: sha512-EJQ3NiP5Xo94wJXIzAyOtSb0QEIAUu7m8t6UZ9krbz0vAJqr92JpcK/lEXg91q6B9pEGqrykkd2EQplnifDSBw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      bl: 5.0.0
+      bl: 5.1.0
       chalk: 5.1.2
       cli-cursor: 4.0.0
       cli-spinners: 2.7.0
@@ -4104,8 +3900,8 @@ packages:
     engines: {node: '>=6'}
     optional: true
 
-  /plasmo/0.56.0:
-    resolution: {integrity: sha512-XuA5DNz45KL+gvSNMkPPSlwE8Cdq07mBEHLQ3C8/6bHpYswDadbMJtlLeLFlriAjdsZaygjZzr+YgCNBG05zQQ==}
+  /plasmo/0.57.1:
+    resolution: {integrity: sha512-RXh0gp1blS+MectHHBGmHxcOCUO3Z7emROBYL64e271ul4Xnyei4V7euif+3TbbUEKklN+EPTFOxYYrFB7wYOg==}
     hasBin: true
     dependencies:
       '@expo/spawn-async': 1.7.0
@@ -4114,184 +3910,7 @@ packages:
       '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
       '@parcel/watcher': 2.0.5
       '@plasmohq/init': 0.3.3
-      '@plasmohq/parcel-config': 0.16.4
-      archiver: 5.3.1
-      buffer: 6.0.3
-      chalk: 5.1.0
-      change-case: 4.1.2
-      dotenv: 16.0.3
-      dotenv-expand: 9.0.0
-      events: 3.3.0
-      fflate: 0.7.4
-      get-port: 6.1.2
-      got: 12.5.1
-      inquirer: 9.1.3
-      is-path-inside: 4.0.0
-      mnemonic-id: 3.2.7
-      node-object-hash: 2.3.10
-      package-json: 8.1.0
-      process: 0.11.10
-      semver: 7.3.8
-      sharp: 0.31.1
-      tempy: 3.0.0
-      tiny-glob: 0.2.9
-      typescript: 4.8.4
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffeescript
-      - cssnano
-      - dot
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jazz
-      - jqtpl
-      - just
-      - liquid
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - postcss
-      - pug
-      - purgecss
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - relateurl
-      - slm
-      - squirrelly
-      - srcset
-      - supports-color
-      - teacup
-      - templayed
-      - terser
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - uncss
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-    dev: false
-
-  /plasmo/0.56.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-XuA5DNz45KL+gvSNMkPPSlwE8Cdq07mBEHLQ3C8/6bHpYswDadbMJtlLeLFlriAjdsZaygjZzr+YgCNBG05zQQ==}
-    hasBin: true
-    dependencies:
-      '@expo/spawn-async': 1.7.0
-      '@parcel/core': 2.7.0
-      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
-      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
-      '@parcel/watcher': 2.0.5
-      '@plasmohq/init': 0.3.3
-      '@plasmohq/parcel-config': 0.16.4_biqbaboplfbrettd7655fr4n2y
-      archiver: 5.3.1
-      buffer: 6.0.3
-      chalk: 5.1.0
-      change-case: 4.1.2
-      dotenv: 16.0.3
-      dotenv-expand: 9.0.0
-      events: 3.3.0
-      fflate: 0.7.4
-      get-port: 6.1.2
-      got: 12.5.1
-      inquirer: 9.1.3
-      is-path-inside: 4.0.0
-      mnemonic-id: 3.2.7
-      node-object-hash: 2.3.10
-      package-json: 8.1.0
-      process: 0.11.10
-      semver: 7.3.8
-      sharp: 0.31.1
-      tempy: 3.0.0
-      tiny-glob: 0.2.9
-      typescript: 4.8.4
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffeescript
-      - cssnano
-      - dot
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jazz
-      - jqtpl
-      - just
-      - liquid
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - postcss
-      - pug
-      - purgecss
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - relateurl
-      - slm
-      - squirrelly
-      - srcset
-      - supports-color
-      - teacup
-      - templayed
-      - terser
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - uncss
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-
-  /plasmo/0.57.0-alpha.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-lRCKGx6WFhiPDEi2uBFj7u7qTVdEFAPcieFjUguSrqv//MeJtf5naQt/iyEA/DQiLNae8dbkH4+AGa+qFD9Aog==}
-    hasBin: true
-    dependencies:
-      '@expo/spawn-async': 1.7.0
-      '@parcel/core': 2.7.0
-      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
-      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
-      '@parcel/watcher': 2.0.5
-      '@plasmohq/init': 0.3.3
-      '@plasmohq/parcel-config': 0.18.0_biqbaboplfbrettd7655fr4n2y
+      '@plasmohq/parcel-config': 0.19.1
       archiver: 5.3.1
       buffer: 6.0.3
       chalk: 5.1.2
@@ -4370,11 +3989,99 @@ packages:
       - whiskers
     dev: false
 
+  /plasmo/0.57.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-RXh0gp1blS+MectHHBGmHxcOCUO3Z7emROBYL64e271ul4Xnyei4V7euif+3TbbUEKklN+EPTFOxYYrFB7wYOg==}
+    hasBin: true
+    dependencies:
+      '@expo/spawn-async': 1.7.0
+      '@parcel/core': 2.7.0
+      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
+      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
+      '@parcel/watcher': 2.0.5
+      '@plasmohq/init': 0.3.3
+      '@plasmohq/parcel-config': 0.19.1_biqbaboplfbrettd7655fr4n2y
+      archiver: 5.3.1
+      buffer: 6.0.3
+      chalk: 5.1.2
+      change-case: 4.1.2
+      dotenv: 16.0.3
+      dotenv-expand: 9.0.0
+      events: 3.3.0
+      fflate: 0.7.4
+      get-port: 6.1.2
+      got: 12.5.2
+      inquirer: 9.1.3
+      is-path-inside: 4.0.0
+      mnemonic-id: 3.2.7
+      node-object-hash: 2.3.10
+      package-json: 8.1.0
+      process: 0.11.10
+      semver: 7.3.8
+      sharp: 0.31.1
+      tempy: 3.0.0
+      tiny-glob: 0.2.9
+      typescript: 4.8.4
+    transitivePeerDependencies:
+      - arc-templates
+      - atpl
+      - babel-core
+      - bracket-template
+      - coffeescript
+      - cssnano
+      - dot
+      - eco
+      - ect
+      - ejs
+      - haml-coffee
+      - hamlet
+      - hamljs
+      - handlebars
+      - hogan.js
+      - htmling
+      - jazz
+      - jqtpl
+      - just
+      - liquid
+      - liquor
+      - lodash
+      - marko
+      - mote
+      - mustache
+      - nunjucks
+      - plates
+      - postcss
+      - pug
+      - purgecss
+      - qejs
+      - ractive
+      - razor-tmpl
+      - react
+      - react-dom
+      - relateurl
+      - slm
+      - squirrelly
+      - srcset
+      - supports-color
+      - teacup
+      - templayed
+      - terser
+      - then-pug
+      - tinyliquid
+      - toffee
+      - twig
+      - twing
+      - uncss
+      - underscore
+      - vash
+      - velocityjs
+      - walrus
+      - whiskers
+
   /postcss-value-parser/4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss/8.4.16:
-    resolution: {integrity: sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==}
+  /postcss/8.4.18:
+    resolution: {integrity: sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.4
@@ -4414,10 +4121,10 @@ packages:
       detect-libc: 2.0.1
       expand-template: 2.0.3
       github-from-package: 0.0.0
-      minimist: 1.2.6
+      minimist: 1.2.7
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.26.0
+      node-abi: 3.28.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -4460,7 +4167,7 @@ packages:
     dependencies:
       deep-extend: 0.6.0
       ini: 1.3.8
-      minimist: 1.2.6
+      minimist: 1.2.7
       strip-json-comments: 2.0.1
 
   /react-dom/18.2.0_react@18.2.0:
@@ -4529,8 +4236,8 @@ packages:
     dependencies:
       picomatch: 2.3.1
 
-  /regenerator-runtime/0.13.9:
-    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+  /regenerator-runtime/0.13.10:
+    resolution: {integrity: sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==}
 
   /registry-auth-token/5.0.1:
     resolution: {integrity: sha512-UfxVOj8seK1yaIOiieV4FIP01vfBDLsY0H9sQzi9EbbUdJiuuBjJgLa1DpImXMNPnVkBD4eVxTEXcrZA6kfpJA==}
@@ -4796,7 +4503,7 @@ packages:
     dependencies:
       has-flag: 4.0.0
 
-  /svelte-preprocess/4.10.7_c36sqhgzdfaw4kmxogryyrffx4:
+  /svelte-preprocess/4.10.7_besnmoibwkhwtentvwuriss7pa:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -4843,12 +4550,12 @@ packages:
       magic-string: 0.25.9
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.51.0
+      svelte: 3.52.0
       typescript: 4.8.4
     dev: false
 
-  /svelte/3.51.0:
-    resolution: {integrity: sha512-PBITYIrsNOuW+Dtds00gSY68raNZQn7i59Dg/fjgf6WwyawPKeBwle692coO7ILZqSO+UJe9899aDn9sMdeOHA==}
+  /svelte/3.52.0:
+    resolution: {integrity: sha512-FxcnEUOAVfr10vDU5dVgJN19IvqeHQCS1zfe8vayTfis9A2t5Fhx+JDe5uv/C3j//bB1umpLJ6quhgs9xyUbCQ==}
     engines: {node: '>= 8'}
     dev: false
 
@@ -5007,14 +4714,14 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vue/3.2.40:
-    resolution: {integrity: sha512-1mGHulzUbl2Nk3pfvI5aXYYyJUs1nm4kyvuz38u4xlQkLUn1i2R7nDbI4TufECmY8v1qNBHYy62bCaM+3cHP2A==}
+  /vue/3.2.41:
+    resolution: {integrity: sha512-uuuvnrDXEeZ9VUPljgHkqB5IaVO8SxhPpqF2eWOukVrBnRBx2THPSGQBnVRt0GrIG1gvCmFXMGbd7FqcT1ixNQ==}
     dependencies:
-      '@vue/compiler-dom': 3.2.40
-      '@vue/compiler-sfc': 3.2.40
-      '@vue/runtime-dom': 3.2.40
-      '@vue/server-renderer': 3.2.40_vue@3.2.40
-      '@vue/shared': 3.2.40
+      '@vue/compiler-dom': 3.2.41
+      '@vue/compiler-sfc': 3.2.41
+      '@vue/runtime-dom': 3.2.41
+      '@vue/server-renderer': 3.2.41_vue@3.2.41
+      '@vue/shared': 3.2.41
     dev: false
 
   /wcwidth/1.0.1:
@@ -5040,7 +4747,7 @@ packages:
     resolution: {integrity: sha512-QFF+ufAqhoYHvoHdajT/Po7KoXVBPXS2bgjIam5isfWJPfIOnQZ50JtUiVvCv/sjgacf3yRrt2ZKUZ/V4itN4g==}
     engines: {node: '>=12'}
     dependencies:
-      ansi-styles: 6.1.1
+      ansi-styles: 6.2.1
       string-width: 5.1.2
       strip-ansi: 7.0.1
 
