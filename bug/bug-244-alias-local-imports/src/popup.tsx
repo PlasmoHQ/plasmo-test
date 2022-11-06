@@ -1,6 +1,7 @@
-import { Button } from "~components/button"
-import { Checkbox } from "~components/checkbox"
-import { Input } from "~components/input"
+import { Button } from "@Components/button"
+import { Checkbox } from "@Components/checkbox"
+import { Header } from "@Components/header"
+import { Input } from "@Components/input"
 
 function IndexPopup() {
   return (
@@ -10,6 +11,7 @@ function IndexPopup() {
         flexDirection: "column",
         padding: 16
       }}>
+      <Header />
       <Checkbox />
       <Button />
       <Input />

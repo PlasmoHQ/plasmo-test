@@ -1,6 +1,6 @@
-import { Button } from "~components/button"
-import { Checkbox } from "~components/checkbox"
-import { Input } from "~components/input"
+import { Button } from "@Components/button"
+import { Checkbox } from "@Components/checkbox"
+import { Input } from "@Components/input"
 
 function SiteOverlay() {
   return (
