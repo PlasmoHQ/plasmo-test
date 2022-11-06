@@ -1,4 +1,6 @@
-import { Button, Checkbox, Input } from "@Components"
+import { Button } from "~components/button"
+import { Checkbox } from "~components/checkbox"
+import { Input } from "~components/input"
 
 function IndexPopup() {
   return (
