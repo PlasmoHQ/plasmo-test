@@ -114,6 +114,49 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.4
 
+  exp/mice:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4
+      '@plasmohq/storage': 0.12.2
+      '@types/chrome': 0.0.200
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      '@types/simple-peer': 9.11.5
+      buffer: 6.0.3
+      events: 3.3.0
+      mnemonic-id: 3.2.7
+      parcel: 2.7.0
+      plasmo: 0.58.0
+      prettier: 2.7.1
+      process: 0.11.10
+      react: 18.2.0
+      react-dom: 18.2.0
+      rimraf: 3.0.2
+      simple-peer: 9.11.1
+      typescript: 4.8.4
+    dependencies:
+      '@plasmohq/storage': 0.12.2_react@18.2.0
+      mnemonic-id: 3.2.7
+      plasmo: 0.58.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      simple-peer: 9.11.1
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
+      '@types/chrome': 0.0.200
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      '@types/simple-peer': 9.11.5
+      buffer: 6.0.3
+      events: 3.3.0
+      parcel: 2.7.0
+      prettier: 2.7.1
+      process: 0.11.10
+      rimraf: 3.0.2
+      typescript: 4.8.4
+
   exp/with-dnr:
     specifiers:
       '@trivago/prettier-plugin-sort-imports': 3.3.1
@@ -203,6 +246,33 @@ importers:
       '@types/node': 18.11.2
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
+      prettier: 2.7.1
+      typescript: 4.8.4
+
+  exp/world-edit:
+    specifiers:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4
+      '@plasmohq/storage': 0.12.2
+      '@types/chrome': 0.0.200
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      plasmo: 0.58.0
+      prettier: 2.7.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.8.4
+    dependencies:
+      '@plasmohq/storage': 0.12.2_react@18.2.0
+      plasmo: 0.58.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@plasmohq/prettier-plugin-sort-imports': 3.5.4_prettier@2.7.1
+      '@types/chrome': 0.0.200
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
       prettier: 2.7.1
       typescript: 4.8.4
 
@@ -1347,6 +1417,19 @@ packages:
     transitivePeerDependencies:
       - '@parcel/core'
 
+  /@parcel/reporter-cli/2.7.0_@parcel+core@2.7.0:
+    resolution: {integrity: sha512-80gEODg8cnAmnxGVuaSVDo8JJ54P9AA2bHwSs1cIkHWlJ3BjDQb83H31bBHncJ5Kn5kQ/j+7WjlqHpTCiOR9PA==}
+    engines: {node: '>= 12.0.0', parcel: ^2.7.0}
+    dependencies:
+      '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
+      '@parcel/types': 2.7.0_@parcel+core@2.7.0
+      '@parcel/utils': 2.7.0
+      chalk: 4.1.2
+      term-size: 2.2.1
+    transitivePeerDependencies:
+      - '@parcel/core'
+    dev: true
+
   /@parcel/reporter-dev-server/2.7.0_@parcel+core@2.7.0:
     resolution: {integrity: sha512-ySuou5addK8fGue8aXzo536BaEjMujDrEc1xkp4TasInXHVcA98b+SYX5NAZTGob5CxKvZQ5ylhg77zW30B+iA==}
     engines: {node: '>= 12.0.0', parcel: ^2.7.0}
@@ -2131,6 +2214,90 @@ packages:
       - walrus
       - whiskers
 
+  /@plasmohq/parcel-config/0.21.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-62ASC4/L1WZACQJ5thI6jdORUfH7OhYjMChbaqJwv0GbNH1m1EV4zq7tJKl6209PYXcOoOSm5eoKb4oqukHe2g==}
+    dependencies:
+      '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
+      '@parcel/core': 2.7.0
+      '@parcel/optimizer-data-url': 2.7.0_@parcel+core@2.7.0
+      '@parcel/runtime-js': 2.7.0_@parcel+core@2.7.0
+      '@parcel/runtime-service-worker': 2.7.0_@parcel+core@2.7.0
+      '@parcel/source-map': 2.1.1
+      '@parcel/transformer-css': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-graphql': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-inline-string': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-less': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-postcss': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-raw': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-sass': 2.7.0_@parcel+core@2.7.0
+      '@parcel/transformer-worklet': 2.7.0_@parcel+core@2.7.0
+      '@plasmohq/parcel-bundler': 0.2.5
+      '@plasmohq/parcel-namer-manifest': 0.2.4
+      '@plasmohq/parcel-packager': 0.5.0
+      '@plasmohq/parcel-resolver': 0.6.1
+      '@plasmohq/parcel-runtime': 0.11.0
+      '@plasmohq/parcel-transformer-inject-env': 0.1.4
+      '@plasmohq/parcel-transformer-inline-css': 0.1.6
+      '@plasmohq/parcel-transformer-manifest': 0.11.2
+      '@plasmohq/parcel-transformer-svelte3': 0.2.4
+      '@plasmohq/parcel-transformer-vue3': 0.2.7_biqbaboplfbrettd7655fr4n2y
+    transitivePeerDependencies:
+      - arc-templates
+      - atpl
+      - babel-core
+      - bracket-template
+      - coffeescript
+      - cssnano
+      - dot
+      - eco
+      - ect
+      - ejs
+      - haml-coffee
+      - hamlet
+      - hamljs
+      - handlebars
+      - hogan.js
+      - htmling
+      - jazz
+      - jqtpl
+      - just
+      - liquid
+      - liquor
+      - lodash
+      - marko
+      - mote
+      - mustache
+      - nunjucks
+      - plates
+      - postcss
+      - pug
+      - purgecss
+      - qejs
+      - ractive
+      - razor-tmpl
+      - react
+      - react-dom
+      - relateurl
+      - slm
+      - squirrelly
+      - srcset
+      - supports-color
+      - teacup
+      - templayed
+      - terser
+      - then-pug
+      - tinyliquid
+      - toffee
+      - twig
+      - twing
+      - uncss
+      - underscore
+      - vash
+      - velocityjs
+      - walrus
+      - whiskers
+    dev: false
+
   /@plasmohq/parcel-config/0.22.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-AYLqHZPtimGHqdhUBbHSBgqxP1wfhszfA3O/1q8RBaoI3CRa+CFWyjKJsyjLUIrgOrlKd8Y1NFROzuXAh5OGLw==}
     dependencies:
@@ -2285,6 +2452,15 @@ packages:
       '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
       got: 12.5.2
+    dev: false
+
+  /@plasmohq/parcel-runtime/0.11.0:
+    resolution: {integrity: sha512-9LQRbaQOrg53P1pNeKjEE8nMeizgtLMlvQd8GvBEkD5YzsO8UE4BfR7wKc/YF8GetJql0YCbozoEk8jxfObuSw==}
+    engines: {parcel: '>= 2.7.0'}
+    dependencies:
+      '@parcel/core': 2.7.0
+      '@parcel/plugin': 2.7.0_@parcel+core@2.7.0
+      react-refresh: 0.14.0
     dev: false
 
   /@plasmohq/parcel-runtime/0.11.1:
@@ -2593,6 +2769,13 @@ packages:
       '@types/har-format': 1.2.9
     dev: true
 
+  /@types/chrome/0.0.200:
+    resolution: {integrity: sha512-oNT2/KHgZECTzj4oavLc20r3D2yFufLwGNaLFAN8YxYyNVJGenX3l3oGBynhoT/Azm3eAfyDynrdca6jB7CNzw==}
+    dependencies:
+      '@types/filesystem': 0.0.32
+      '@types/har-format': 1.2.9
+    dev: true
+
   /@types/filesystem/0.0.32:
     resolution: {integrity: sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==}
     dependencies:
@@ -2615,6 +2798,10 @@ packages:
 
   /@types/node/18.11.2:
     resolution: {integrity: sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==}
+    dev: true
+
+  /@types/node/18.11.7:
+    resolution: {integrity: sha512-LhFTglglr63mNXUSRYD8A+ZAIu5sFqNJ4Y2fPuY7UlrySJH87rRRlhtVmMHplmfk5WkoJGmDjE9oiTfyX94CpQ==}
 
   /@types/node/18.8.3:
     resolution: {integrity: sha512-0os9vz6BpGwxGe9LOhgP/ncvYN5Tx1fNcd2TM3rD/aCGBkysb+ZWpXEocG24h6ZzOi13+VB8HndAQFezsSOw1w==}
@@ -2641,8 +2828,22 @@ packages:
       '@types/react': 18.0.21
     dev: true
 
+  /@types/react-dom/18.0.8:
+    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+    dependencies:
+      '@types/react': 18.0.24
+    dev: true
+
   /@types/react/18.0.21:
     resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.1.1
+    dev: true
+
+  /@types/react/18.0.24:
+    resolution: {integrity: sha512-wRJWT6ouziGUy+9uX0aW4YOJxAY0bG6/AOk5AW5QSvZqI7dk6VBIbXvcVgIw/W5Jrl24f77df98GEKTJGOLx7Q==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -2652,11 +2853,17 @@ packages:
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
-      '@types/node': 18.11.2
+      '@types/node': 18.11.7
     dev: false
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: true
+
+  /@types/simple-peer/9.11.5:
+    resolution: {integrity: sha512-haXgWcAa3Y3Sn+T8lzkE4ErQUpYzhW6Cz2lh00RhQTyWt+xZ3s87wJPztUxlqSdFRqGhe2MQIBd0XsyHP3No4w==}
+    dependencies:
+      '@types/node': 18.11.7
     dev: true
 
   /@vue/compiler-core/3.2.40:
@@ -3367,6 +3574,10 @@ packages:
     resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
     engines: {node: '>=0.12'}
 
+  /err-code/3.0.1:
+    resolution: {integrity: sha512-GiaH0KJUewYok+eeY05IIgjtAe4Yltygk9Wqp1V5yVWLdhf0hYZchRjNIT9bb0mSwRcIusT3cx7PJUf3zEIfUA==}
+    dev: false
+
   /errno/0.1.8:
     resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
     hasBin: true
@@ -3697,6 +3908,15 @@ packages:
   /gensync/1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
+    dev: true
+
+  /get-browser-rtc/1.1.0:
+    resolution: {integrity: sha512-MghbMJ61EJrRsDe7w1Bvqt3ZsBuqhce5nrn/XAwgwOXhcsz53/ltdxOse1h/8eKXj5slzxdsz56g5rzOFSGwfQ==}
+    dev: false
+
+  /get-port/4.2.0:
+    resolution: {integrity: sha512-/b3jarXkH8KJoOMQc3uVGHASwGLPq3gSFJ7tgJm2diza+bydJPTGOibin2steecKeOylE8oY2JERlVWkAJO6yw==}
+    engines: {node: '>=6'}
     dev: true
 
   /get-port/6.1.2:
@@ -4550,6 +4770,38 @@ packages:
       dot-case: 3.0.4
       tslib: 2.4.0
 
+  /parcel/2.7.0:
+    resolution: {integrity: sha512-pRYwnivwtNP0tip8xYSo4zCB0XhLt7/gJzP1p8OovCqkmFjG9VG+GW9TcAKqMIo0ovEa9tT+/s6gY1Qy+BONGQ==}
+    engines: {node: '>= 12.0.0'}
+    hasBin: true
+    peerDependenciesMeta:
+      '@parcel/core':
+        optional: true
+    dependencies:
+      '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
+      '@parcel/core': 2.7.0
+      '@parcel/diagnostic': 2.7.0
+      '@parcel/events': 2.7.0
+      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
+      '@parcel/logger': 2.7.0
+      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
+      '@parcel/reporter-cli': 2.7.0_@parcel+core@2.7.0
+      '@parcel/reporter-dev-server': 2.7.0_@parcel+core@2.7.0
+      '@parcel/utils': 2.7.0
+      chalk: 4.1.2
+      commander: 7.2.0
+      get-port: 4.2.0
+      v8-compile-cache: 2.3.0
+    transitivePeerDependencies:
+      - cssnano
+      - postcss
+      - purgecss
+      - relateurl
+      - srcset
+      - terser
+      - uncss
+    dev: true
+
   /parent-module/1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -4793,6 +5045,95 @@ packages:
       - walrus
       - whiskers
 
+  /plasmo/0.58.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-6g9axDHCTNk2B3FgyCvpssb6fGY3PMpVcCZQCflEyNMMmgBGnGAbL07LTyN/Ksszt5VIU7ne7PwFxu+3PPbGMA==}
+    hasBin: true
+    dependencies:
+      '@expo/spawn-async': 1.7.0
+      '@parcel/core': 2.7.0
+      '@parcel/fs': 2.7.0_@parcel+core@2.7.0
+      '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
+      '@parcel/watcher': 2.0.5
+      '@plasmohq/init': 0.3.3
+      '@plasmohq/parcel-config': 0.21.0_biqbaboplfbrettd7655fr4n2y
+      archiver: 5.3.1
+      buffer: 6.0.3
+      chalk: 5.1.2
+      change-case: 4.1.2
+      dotenv: 16.0.3
+      dotenv-expand: 9.0.0
+      events: 3.3.0
+      fflate: 0.7.4
+      get-port: 6.1.2
+      got: 12.5.2
+      inquirer: 9.1.4
+      is-path-inside: 4.0.0
+      mnemonic-id: 3.2.7
+      node-object-hash: 2.3.10
+      package-json: 8.1.0
+      process: 0.11.10
+      semver: 7.3.8
+      sharp: 0.31.1
+      tempy: 3.0.0
+      tiny-glob: 0.2.9
+      typescript: 4.8.4
+    transitivePeerDependencies:
+      - arc-templates
+      - atpl
+      - babel-core
+      - bracket-template
+      - coffeescript
+      - cssnano
+      - dot
+      - eco
+      - ect
+      - ejs
+      - haml-coffee
+      - hamlet
+      - hamljs
+      - handlebars
+      - hogan.js
+      - htmling
+      - jazz
+      - jqtpl
+      - just
+      - liquid
+      - liquor
+      - lodash
+      - marko
+      - mote
+      - mustache
+      - nunjucks
+      - plates
+      - postcss
+      - pug
+      - purgecss
+      - qejs
+      - ractive
+      - razor-tmpl
+      - react
+      - react-dom
+      - relateurl
+      - slm
+      - squirrelly
+      - srcset
+      - supports-color
+      - teacup
+      - templayed
+      - terser
+      - then-pug
+      - tinyliquid
+      - toffee
+      - twig
+      - twing
+      - uncss
+      - underscore
+      - vash
+      - velocityjs
+      - walrus
+      - whiskers
+    dev: false
+
   /plasmo/0.59.0-alpha.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-2tgPaikxSv0mYtwTCnbsey8UJgcTXVHU/OVqkWcvMoRfUBw1PTTSk7lOw11J5TEsfeVeu6xKOxcBV4IQcCLLfw==}
     hasBin: true
@@ -4993,6 +5334,12 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
+  /randombytes/2.1.0:
+    resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
+    dependencies:
+      safe-buffer: 5.2.1
+    dev: false
+
   /rc/1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
@@ -5120,6 +5467,13 @@ packages:
       glob: 7.2.3
     dev: false
 
+  /rimraf/3.0.2:
+    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
+    dev: true
+
   /rollup/2.79.1:
     resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
@@ -5242,6 +5596,20 @@ packages:
       decompress-response: 6.0.0
       once: 1.4.0
       simple-concat: 1.0.1
+
+  /simple-peer/9.11.1:
+    resolution: {integrity: sha512-D1SaWpOW8afq1CZGWB8xTfrT3FekjQmPValrqncJMX7QFl8YwhrPTZvMCANLtgBwwdS+7zURyqxDDEmY558tTw==}
+    dependencies:
+      buffer: 6.0.3
+      debug: 4.3.4
+      err-code: 3.0.1
+      get-browser-rtc: 1.1.0
+      queue-microtask: 1.2.3
+      randombytes: 2.1.0
+      readable-stream: 3.6.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /simple-swizzle/0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
@@ -5489,6 +5857,11 @@ packages:
       type-fest: 2.19.0
       unique-string: 3.0.0
 
+  /term-size/2.2.1:
+    resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
+    engines: {node: '>=8'}
+    dev: true
+
   /terser/5.15.1:
     resolution: {integrity: sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==}
     engines: {node: '>=10'}
@@ -5661,6 +6034,10 @@ packages:
   /utility-types/3.10.0:
     resolution: {integrity: sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==}
     engines: {node: '>= 4'}
+
+  /v8-compile-cache/2.3.0:
+    resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
+    dev: true
 
   /validate-npm-package-license/3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
