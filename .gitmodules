@@ -1,20 +1,20 @@
 [submodule "exp/with-svelte"]
 	path = exp/with-svelte
 	url = https://github.com/PlasmoHQ/with-svelte.git
-	branch=main
+	branch = main
 [submodule "exp/with-vue"]
 	path = exp/with-vue
 	url = https://github.com/PlasmoHQ/with-vue.git
-	branch=main
+	branch = main
 [submodule "exp/with-wasm-zig"]
 	path = exp/with-wasm-zig
 	url = https://github.com/PlasmoHQ/with-wasm-zig.git
-	branch=main
+	branch = main
 [submodule "exp/mice"]
 	path = exp/mice
 	url = https://github.com/PlasmoHQ/mice.git
-	branch=main
+	branch = main
 [submodule "exp/world-edit"]
 	path = exp/world-edit
 	url = https://github.com/PlasmoHQ/world-edit.git
-	branch=main
+	branch = main
